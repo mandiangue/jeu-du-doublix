@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FF7B00</item>
+        <item name="colorPrimaryDark">#FF7B00</item>
+        <item name="colorAccent">#C70037</item>
+
+
+
+
+
+    </style>
+<style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@android:style/TextAppearance">
+    <item name="android:textSize">25sp</item>
+    <item name="android:fontFamily">monospace</item>
+    <item name="android:textColor">@color/blanc</item>
+
+    </style>
+    <style name="splbienvenu">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="fleche">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">40dp</item>
+    </style>
+
+
+</resources>

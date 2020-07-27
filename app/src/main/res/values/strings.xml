@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Le jeu du Doublix</string>
+    <string name="testeur"> Bienvenu sur mon application</string>
+    <string name="comptor">Points : 0 </string>
+    <string name="clicker">Bouton</string>
+    <string name="_5_chances">5 chances</string>
+    <string name="_3500_points">0 point</string>
+
+    <string name="d_marrer_le_jeu">Démarrer  le  jeu</string>
+    <string name="reglement">Il faut avoir trouvé un nombre paire pour obtenir des points. Et réunir 3500 points ou plus pour gagner la partie. Vous avez droit qu\' à 5 essais pour gagner. Plus vous gagnez plus vos  chances diminuent. Vous aurez droit à une récompense.Bonne chance !!</string>
+
+</resources>

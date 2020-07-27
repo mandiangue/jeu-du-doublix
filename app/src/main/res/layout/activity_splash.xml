@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".SplashActivity">
+
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:contentDescription="splash"
+            app:srcCompat="@drawable/bienvenu" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="60dp"
+
+        android:gravity="center"
+        android:text="Merci de lire le réglement ci-dessous avant de rentrer dans le jeu"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        app:srcCompat="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/flecheview"
+        style="@style/fleche"
+        android:layout_width="wrap_content"
+
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="110dp"
+        app:srcCompat="@drawable/fleche" />
+
+    <Button
+        android:id="@+id/entrenjeu"
+        android:layout_width="294dp"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="220dp"
+        android:background="#FF774E"
+        android:clickable="true"
+        android:focusableInTouchMode="false"
+        android:text="Entrer dans le jeu"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/reglement2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/reglement"
+        android:textAlignment="viewStart"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/entrenjeu" />
+
+
+</RelativeLayout>

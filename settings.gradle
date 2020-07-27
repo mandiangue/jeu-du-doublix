@@ -1,0 +1,2 @@
+rootProject.name='BestAppli'
+include ':app'
